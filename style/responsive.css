@@ -1,0 +1,87 @@
+@media screen and (max-width:900px) {
+
+    .pop-up .container object,
+    .pop-up .container object .videoBox {
+        width: 100vh;
+        height: 56vh;
+    }
+}
+
+@media screen and (max-width:700px) {
+    
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao {
+        margin-top: 5px;
+    }
+
+    .filme-principal .container {
+        width: 75%;
+    }
+
+    .filme-principal .titulo {
+        margin-top: 10%;
+    }
+
+    .pop-up .container object,
+    .pop-up .container object .videoBox {
+        width: 70vh;
+        height: 40vh;
+    }
+
+
+
+
+    .pop-up .container .informacoes div ul li {
+        font-size: 30px;
+    }
+
+    .pop-up .container .informacoes div ul {
+        font-size: 30px;
+    }
+
+    .pop-up .container .informacoes .corpo-informacoes .tabela-informacoes ul {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 554px) {
+
+    .filme-principal .container {
+        width: 90%;
+    }
+
+    .filme-principal .titulo {
+        margin-top: 5%;
+        font-size: 30px;
+    }
+
+    .pop-up .container object,
+    .pop-up .container object .videoBox {
+        width: 40vh;
+        height: 25vh;
+    }
+
+
+    .pop-up .container .informacoes div ul li {
+        margin: 0 11px;
+        font-size: 20px;
+    }
+
+    .pop-up .container .informacoes div ul {
+        font-size: 20px;
+    }
+
+    .pop-up .container .informacoes .corpo-informacoes .tabela-informacoes ul {
+        font-size: 10px;
+    }
+
+    .lbl-temporadas {
+        font-size: 15px;
+    }
+
+}
